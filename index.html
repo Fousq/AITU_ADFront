@@ -1,17 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animation</title>
-    <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <title>Solar System</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <img src="./assets/gigachad.jpg" id="move" alt="gigachad" srcset=""> <br>
-        <img src="./assets/gigachad.jpg" id="transition" alt="gigachad" srcset=""> <br>
-        <div id="loader"></div>
-    </main>
+  <img class="object" src="assets/sun.png" alt="" id="sun">
+  <img class="object planet" src="assets/mercury.png" alt="" id="mercury">
+  <img class="object planet" src="assets/venus.png" alt="" id="venus">
+  <img class="object planet" src="assets/earth.png" alt="" id="earth">
+  <img class="object planet" src="assets/mars.png" alt="" id="mars">
+  <img class="object planet" src="assets/jupiter.png" alt="" id="jupiter">
+  <img class="object planet" src="assets/saturn.png" alt="" id="saturn">
+  <img class="object planet" src="assets/uranus.png" alt="" id="uranus">
+  <img class="object planet" src="assets/neptune.png" alt="" id="neptune">
+  <div class="object" id="moon"></div>
+
+  <div class="object p-orbit"></div>
+  <div class="object p-orbit"></div>
+  <div class="object p-orbit"></div>
+  <div class="object p-orbit"></div>
+  <div class="object p-orbit"></div>
+  <div class="object p-orbit"></div>
+  <div class="object p-orbit"></div>
+  <div class="object p-orbit"></div>
+  <div class="object" id="m-orbit"></div>
+
+  <img src="asteroid.png" class="object" alt="" id="belt">
 </body>
+  <script src="script.js"></script>
 </html>

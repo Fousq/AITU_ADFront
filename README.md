@@ -1,5 +1,9 @@
-# Task №4
+# Task №6
 
 # Task description
 
-Create animation in an inserted image or you can draw yourself using CSS @Keyframes, Working on animation/ moving images at least 10 on website
+Create 9 planets solar system with full animation in Canvas
+
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations
+
+https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations

@@ -1,5 +1,5 @@
-# Task №4
+# Task №7
 
 # Task description
 
-Create animation in an inserted image or you can draw yourself using CSS @Keyframes, Working on animation/ moving images at least 10 on website
+Create a chatbot or a messenger app with the help of react JS. It must have the functionality to communicate between two parties.
